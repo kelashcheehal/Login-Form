@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+}
+
+.heading {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333333d6;
+
+}
+
+form {
+    width: 30%;
+    margin: auto;
+}
+
+fieldset {
+    padding: 20px;
+    border: 1px solid #33333339;
+    background-color: white;
+
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333d6;
+
+}
+
+
+legend {
+    padding: 6px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+input[type="email"],
+input[type="text"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #33333339;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus {
+    background-color: #33333318;
+}
+
+select {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid #33333339;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.register input {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #33333339;
+    background-color: #4CAF50;
+    color: white;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
